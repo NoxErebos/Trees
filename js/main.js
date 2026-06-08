@@ -1,0 +1,172 @@
+// ============================================
+// INSULIGHT CAMBODIA — Main JavaScript
+// ============================================
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  // ─── HAMBURGER MENU ───
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks  = document.querySelector('.nav-links');
+  if (hamburger && navLinks) {
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      const spans = hamburger.querySelectorAll('span');
+      spans[0].style.transform = navLinks.classList.contains('open') ? 'rotate(45deg) translate(5px, 5px)' : '';
+      spans[1].style.opacity   = navLinks.classList.contains('open') ? '0' : '1';
+      spans[2].style.transform = navLinks.classList.contains('open') ? 'rotate(-45deg) translate(5px, -5px)' : '';
+    });
+  }
+
+  // ─── ACTIVE NAV LINK ───
+  const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    const href = link.getAttribute('href');
+    if (href === currentPage || (currentPage === '' && href === 'index.html')) {
+      link.classList.add('active');
+    }
+  });
+
+  // ─── SCROLL ANIMATIONS ───
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+  // ─── COUNTER ANIMATION ───
+  function animateCounter(el) {
+    const target = parseInt(el.getAttribute('data-target'));
+    const suffix = el.getAttribute('data-suffix') || '';
+    let start = 0;
+    const duration = 1600;
+    const step = (timestamp) => {
+      if (!start) start = timestamp;
+      const progress = Math.min((timestamp - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.floor(eased * target) + suffix;
+      if (progress < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target);
+        counterObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  document.querySelectorAll('.stat-number[data-target]').forEach(el => counterObserver.observe(el));
+
+  // ─── DONATE AMOUNT BUTTONS ───
+  const amountBtns = document.querySelectorAll('.amount-btn');
+  const customInput = document.getElementById('custom-amount');
+  if (amountBtns.length) {
+    amountBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        amountBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        if (customInput && btn.dataset.amount !== 'custom') {
+          customInput.value = btn.dataset.amount;
+        }
+      });
+    });
+  }
+
+  // ─── FORM SUBMISSION ───
+  document.querySelectorAll('form').forEach(form => {
+
+    form.addEventListener('submit', () => {
+
+      const btn = form.querySelector('.form-submit');
+
+      if (!btn) return;
+
+      btn.textContent = 'Submitting...';
+      btn.disabled = true;
+
+    });
+
+  });
+
+  // Store original button text
+  document.querySelectorAll('.form-submit').forEach(btn => {
+    btn.setAttribute('data-original', btn.textContent);
+  });
+
+});
+
+function loadFooter() {
+  const footerHTML = `
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="navbar-brand" style="margin-bottom: 15px;"><img src="image/insulightlogo.png" class="insulightLogo">Insulight</div>
+          <p style="color: white; font-family: var(--font-display); margin-bottom: 10px; margin-top: -10px">Siem Reap, Cambodia</p>
+          <p>Together We Spread Light: One mission, One Community, One Life.<br>A volunteer-driven initiative dedicated to diabetes education across Cambodia.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="journey.html">Our Journey</a></li>
+            <li><a href="join.html">Join Us</a></li>
+            <li><a href="donate.html">Donate</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">insulight@insulight.org</a></li>
+            <li><a href="#">855+ 96 609 6802</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Socials</h4>
+          <ul>
+            <li><a href="https://web.facebook.com/p/Insulight-61579956141509/?_rdc=1&_rdr#">Facebook</a></li>
+            <li><a href="https://www.instagram.com/insulight_cambodia">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@insulight_cambodia">TikTok</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Insulight Cambodia. All rights reserved.</p>
+        <div class="footer-badge">Made with love for Cambodia</div>
+      </div>
+    </footer>
+  `;
+  document.body.insertAdjacentHTML('beforeend', footerHTML);
+}
+// Run the function when the window loads
+window.onload = loadFooter;
+
+// 1. Create the container
+const topbar = document.createElement('nav');
+topbar.className = 'navbar';
+
+// 2. Add content (e.g., using innerHTML for simplicity)
+topbar.innerHTML = `
+<a href="index.html" class="navbar-brand">
+    <img src="image/insulightlogo.png" class="insulightLogo">Insulight
+</a>
+<ul class="nav-links">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About Us</a></li>
+  <li><a href="journey.html">Our Journey</a></li>
+  <li><a href="join.html">Join Us</a></li>
+  <li><a href="donate.html" class="btn-donate">Donate</a></li>
+</ul>
+<div class="hamburger"><span></span><span></span><span></span></div>
+`;
+
+// 3. Insert it into the body or a specific container
+document.body.prepend(topbar);

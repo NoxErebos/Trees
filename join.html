@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insulight - Volunteer</title>
+  <link rel="icon" type="image/jpg" href="image/insulightlogo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-content">
+  <section style="background: linear-gradient(135deg, var(--navy) 0%, var(--teal) 100%); padding: 90px 5% 70px; text-align: center;">
+    <div class="fade-up">
+      <div class="section-label" style="color: var(--gold);">Volunteers Welcome</div>
+      <h1 style="color: white; max-width: 700px; margin: 12px auto 20px;">Join the Insulight Team</h1>
+      <p style="color: rgba(255,255,255,0.75); max-width: 560px; margin: 0 auto; font-size: 1.05rem;">No medical degree required — just a desire to make a difference. We welcome students, professionals, and anyone passionate about health education.</p>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="fade-up" style="text-align: center; max-width: 600px; margin: 0 auto 40px;">
+      <div class="section-label">Open Roles</div>
+      <h2 class="section-title">How You Can Help</h2>
+      <div class="section-divider" style="margin: 0 auto 20px;"></div>
+      <p>Choose the role that fits your skills and availability. Every contribution matters.</p>
+    </div>
+    <div class="roles-grid fade-up">
+      <div class="role-card">
+        <div class="role-icon"><img src="image/decor/microphone.png" class="img-medium"></div>
+        <h4>Educator / Presenter</h4>
+        <p>Lead workshops at schools, explaining diabetes in an engaging and age-appropriate way.</p>
+      </div>
+      <div class="role-card">
+        <div class="role-icon"><img src="image/decor/pencil.png" class="img-medium"></div>
+        <h4>Content Creator</h4>
+        <p>Design infographics, write educational materials, or create social media posts in Khmer or English.</p>
+      </div>
+      <div class="role-card">
+        <div class="role-icon"><img src="image/decor/outreach.png" class="img-medium"></div>
+        <h4>Logistics & Outreach</h4>
+        <p>Help coordinate school visits, manage scheduling, and connect with school administrators.</p>
+      </div>
+      <div class="role-card">
+        <div class="role-icon"><img src="image/decor/camera.png" class="img-medium"></div>
+        <h4>Photography / Video</h4>
+        <p>Document our visits and create compelling visual content to share our mission online.</p>
+      </div>
+    </div>
+  </section>
+
+  <form action="https://formsubmit.co/suylising@gmail.com" method="POST" onsubmit="console.log('FORM SUBMITTED')">
+    <input type="hidden" name="_subject" value="New Insulight Volunteer Application">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://insulight.vercel.app/thanks.html">
+    <section class="section">
+      <div class="fade-up" style="text-align: center; max-width: 600px; margin: 0 auto 40px;">
+        <div class="section-label">Apply</div>
+        <h2 class="section-title">Sign Up to Volunteer</h2>
+        <div class="section-divider" style="margin: 0 auto 20px;"></div>
+      </div>
+
+      <div class="form-section" style="padding-top: 0;">
+        <div class="fade-up">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <div class="form-group">
+              <label class="form-label">First Name *</label>
+              <input class="form-input" type="text" name="FirstName" placeholder="Sokha" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Last Name *</label>
+              <input class="form-input" type="text" name="LastName" placeholder="Chan" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address *</label>
+            <input class="form-input" type="email" name="Email" placeholder="your@gmail.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone Number *</label>
+            <input class="form-input" type="tel" name="Phone#" placeholder="+855 ..." required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Age *</label>
+            <input class="form-input" type="number" name="Age" min="10" max="100" placeholder="15" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Preferred Role *</label>
+            <select class="form-select" name="PreferredRole" required>
+              <option value="">Select a role</option>
+              <option value="Educator / Presenter">Educator / Presenter</option>
+              <option value="Content Creator">Content Creator</option>
+              <option value="Logistics & Outreach">Logistics & Outreach</option>
+              <option value="Photography / Video">Photography / Video</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Tell us about yourself</label>
+            <textarea class="form-textarea" name="About" placeholder="Share your background, why you want to join Insulight, and any relevant skills or experience..."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Availability *</label>
+            <select class="form-select" name="Availability" required>
+              <option value="">Select an option</option>
+              <option value="Weekends only">Weekends only</option>
+              <option value="Weekdays only">Weekdays only</option>
+              <option value="Flexible">Flexible</option>
+              <option value="Once a month">Once a month</option>
+            </select>
+          </div>
+          <button type="submit" class="form-submit">Apply to Volunteer →</button>
+        </div>
+      </div>
+    </section>
+  </form>
+<script src="js/main.js"></script>
+</body>
+</html>
