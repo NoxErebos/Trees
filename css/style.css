@@ -380,7 +380,7 @@ img { max-width: 100%; display: block; }
   margin-bottom: 20px;
 }
 
-.card h3 { color: var(--navy); margin-bottom: 10px; }
+.card h3 { color: var(--dark-green); margin-bottom: 10px; }
 
 /* ─── TEAM ─── */
 .team-section { background: var(--offwhite); }
