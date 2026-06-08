@@ -108,39 +108,33 @@ function loadFooter() {
     <footer>
       <div class="footer-grid">
         <div class="footer-brand">
-          <div class="navbar-brand" style="margin-bottom: 15px;"><img src="image/insulightlogo.png" class="insulightLogo">Insulight</div>
-          <p style="color: white; font-family: var(--font-display); margin-bottom: 10px; margin-top: -10px">Siem Reap, Cambodia</p>
-          <p>Together We Spread Light: One mission, One Community, One Life.<br>A volunteer-driven initiative dedicated to diabetes education across Cambodia.</p>
+          <div class="navbar-brand" style="margin-bottom: 15px;"><img src="image/insulightlogo.png" class="insulightLogo">JPA Trees</div>
+          <p>Together We document all trees present in the Jay Pritzker Academy Campus.</p>
         </div>
         <div class="footer-links">
           <h4>Navigate</h4>
           <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="trees.html">Trees</a></li>
+            <li><a href="map.html">Map</a></li>
             <li><a href="about.html">About Us</a></li>
-            <li><a href="journey.html">Our Journey</a></li>
-            <li><a href="join.html">Join Us</a></li>
-            <li><a href="donate.html">Donate</a></li>
           </ul>
         </div>
         <div class="footer-links">
           <h4>Contact</h4>
           <ul>
-            <li><a href="#">insulight@insulight.org</a></li>
-            <li><a href="#">855+ 96 609 6802</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Socials</h4>
-          <ul>
-            <li><a href="https://web.facebook.com/p/Insulight-61579956141509/?_rdc=1&_rdr#">Facebook</a></li>
-            <li><a href="https://www.instagram.com/insulight_cambodia">Instagram</a></li>
-            <li><a href="https://www.tiktok.com/@insulight_cambodia">TikTok</a></li>
+            <li><a href="#">suylising@jpa.org.kh</a></li>
+            <li><a href="#">loeunreaksmey@jpa.org.kh</a></li>
+            <li><a href="#">soatsangaukannika@jpa.org.kh</a></li>
+            <li><a href="#">sokhasodanet@jpa.org.kh</a></li>
+            <li><a href="#">seartetvannnita@jpa.org.kh</a></li>
+            <li><a href="#">helgajoshua@jpa.org.kh</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2025 Insulight Cambodia. All rights reserved.</p>
-        <div class="footer-badge">Made with love for Cambodia</div>
+        <p>© 2026 Class of 2028. All rights reserved.</p>
+        <div class="footer-badge">Made by Class of 2028</div>
       </div>
     </footer>
   `;
@@ -156,14 +150,13 @@ topbar.className = 'navbar';
 // 2. Add content (e.g., using innerHTML for simplicity)
 topbar.innerHTML = `
 <a href="index.html" class="navbar-brand">
-    <img src="image/insulightlogo.png" class="insulightLogo">Insulight
+    <img src="image/insulightlogo.png" class="insulightLogo">JPA Trees
 </a>
 <ul class="nav-links">
   <li><a href="index.html">Home</a></li>
+  <li><a href="trees.html">Trees</a></li>
+  <li><a href="map.html">Map</a></li>
   <li><a href="about.html">About Us</a></li>
-  <li><a href="journey.html">Our Journey</a></li>
-  <li><a href="join.html">Join Us</a></li>
-  <li><a href="donate.html" class="btn-donate">Donate</a></li>
 </ul>
 <div class="hamburger"><span></span><span></span><span></span></div>
 `;

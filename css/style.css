@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap');
 
 :root {
-  --navy:       #0D2B45;
-  --teal:       #1A7A8A;
+  --green:        #00b000;
+  --pastel-green: #77DD77;
+  --dark-green:   #007a00;
   --teal-light: #2EA8BA;
   --teal-pale:  #E8F6F8;
   --gold:       #e8a020;
@@ -67,7 +68,7 @@ img { max-width: 100%; display: block; }
 .navbar {
   position: fixed; top: 0; left: 0; right: 0;
   height: var(--nav-height);
-  background: var(--navy);
+  background: var(--dark-green);
   display: flex; align-items: center; justify-content: space-between;
   padding: 0 5%;
   z-index: 1000;
@@ -165,7 +166,7 @@ img { max-width: 100%; display: block; }
 /* ─── HERO ─── */
 .hero {
   min-height: 100vh;
-  background: linear-gradient(135deg, var(--navy) 0%, var(--teal) 60%, #1d9aad 100%);
+  background: linear-gradient(135deg, var(--dark-green) 0%, var(--pastel-green) 60%, #1dad78 100%);
   display: flex; align-items: center; justify-content: center;
   text-align: center;
   padding: 80px 5% 60px;
@@ -285,24 +286,24 @@ img { max-width: 100%; display: block; }
 /* ─── SECTIONS ─── */
 .section { padding: 90px 5%; }
 .section-alt { background: var(--white); }
-.section-dark { background: var(--navy); }
+.section-dark { background: var(--dark-green); }
 
 .section-label {
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--teal);
+  color: var(--pastel-green);
   margin-bottom: 10px;
 }
 
 .section-title {
-  color: var(--navy);
+  color: var(--dark-green);
   margin-bottom: 16px;
 }
 
 .section-dark .section-title { color: var(--white); }
-.section-dark .section-label { color: var(--teal-light); }
+.section-dark .section-label { color: var(--pastel-green); }
 .section-dark p { color: rgba(255,255,255,0.65); }
 
 .section-divider {
@@ -627,7 +628,7 @@ img { max-width: 100%; display: block; }
 
 /* ─── FOOTER ─── */
 footer {
-  background: var(--gray-800);
+  background: var(--dark-green);
   color: rgba(255,255,255,0.7);
   padding: 60px 5% 30px;
 }
@@ -640,13 +641,13 @@ footer {
 }
 
 .footer-brand h3 { color: white; font-family: var(--font-display); margin-bottom: 12px; }
-.footer-brand p { font-size: 0.88rem; line-height: 1.8; }
+.footer-brand p { font-size: 0.88rem; line-height: 1.8; color: rgba(255,255,255,0.7); }
 
 .footer-links h4 { color: white; font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px; }
 .footer-links ul { list-style: none; }
 .footer-links ul li { margin-bottom: 10px; }
 .footer-links ul li a { font-size: 0.88rem; color: rgba(255,255,255,0.6); transition: 0.2s; }
-.footer-links ul li a:hover { color: var(--teal-light); }
+.footer-links ul li a:hover { color: var(--pastel-green); }
 
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.08);
@@ -654,7 +655,7 @@ footer {
   display: flex; justify-content: space-between; align-items: center;
   flex-wrap: wrap; gap: 12px;
 }
-.footer-bottom p { font-size: 0.8rem; }
+.footer-bottom p { font-size: 0.8rem; color:rgba(255,255,255,0.7);}
 
 .footer-badge {
   display: flex; align-items: center; gap: 8px;
@@ -663,19 +664,6 @@ footer {
   border-radius: 20px;
   font-size: 0.78rem;
 }
-
-/* ─── DIABETES INFO CARDS ─── */
-.info-banner {
-  background: linear-gradient(135deg, #fff9ee, var(--gold-light));
-  border: 1px solid rgba(232,160,32,0.25);
-  border-radius: var(--radius-md);
-  padding: 24px 28px;
-  display: flex; align-items: flex-start; gap: 16px;
-  margin-top: 30px;
-}
-.info-banner-icon { font-size: 1.8rem; flex-shrink: 0; }
-.info-banner h4 { color: var(--navy); margin-bottom: 4px; font-size: 1rem; }
-.info-banner p { font-size: 0.88rem; }
 
 /* ─── ANIMATIONS ─── */
 .fade-up {
@@ -709,37 +697,6 @@ footer {
 #roleError.show {
   opacity: 1;
   transform: translateY(0);
-}
-
-.info-banner {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.info-banner-content {
-  flex: 1;
-  min-width: 250px;
-}
-
-.info-banner-btn {
-  margin-left: auto;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-
-  .info-banner {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .info-banner-btn {
-    margin-left: 0;
-    margin-top: 10px;
-  }
-
 }
 
 /* ─────────────────────────────
