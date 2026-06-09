@@ -1,7 +1,3 @@
-// ============================================
-// INSULIGHT CAMBODIA — Main JavaScript
-// ============================================
-
 document.addEventListener('DOMContentLoaded', () => {
 
   // ─── HAMBURGER MENU ───
@@ -115,7 +111,7 @@ function loadFooter() {
           <h4>Navigate</h4>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="trees.html">Trees</a></li>
+            <li><a href="catalogue.html">Trees</a></li>
             <li><a href="map.html">Map</a></li>
             <li><a href="about.html">About Us</a></li>
           </ul>
@@ -154,7 +150,7 @@ topbar.innerHTML = `
 </a>
 <ul class="nav-links">
   <li><a href="index.html">Home</a></li>
-  <li><a href="trees.html">Trees</a></li>
+  <li><a href="catalogue.html">Trees</a></li>
   <li><a href="map.html">Map</a></li>
   <li><a href="about.html">About Us</a></li>
 </ul>
