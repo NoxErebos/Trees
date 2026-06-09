@@ -33,6 +33,8 @@ async function loadCatalogueItems() {
             <div class="catalogue-content">
               <div class="catalogue-meta">
                 <span>${catalogueItem.common}</span>
+                <span>•</span>
+                <span>#${catalogueItem.id}</span>
               </div>
               <div class="catalogue-name">
                 <p>${catalogueItem.khmer}</p>
