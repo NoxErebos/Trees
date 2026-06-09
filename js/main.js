@@ -60,43 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { threshold: 0.5 });
 
   document.querySelectorAll('.stat-number[data-target]').forEach(el => counterObserver.observe(el));
-
-  // ─── DONATE AMOUNT BUTTONS ───
-  const amountBtns = document.querySelectorAll('.amount-btn');
-  const customInput = document.getElementById('custom-amount');
-  if (amountBtns.length) {
-    amountBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        amountBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        if (customInput && btn.dataset.amount !== 'custom') {
-          customInput.value = btn.dataset.amount;
-        }
-      });
-    });
-  }
-
-  // ─── FORM SUBMISSION ───
-  document.querySelectorAll('form').forEach(form => {
-
-    form.addEventListener('submit', () => {
-
-      const btn = form.querySelector('.form-submit');
-
-      if (!btn) return;
-
-      btn.textContent = 'Submitting...';
-      btn.disabled = true;
-
-    });
-
-  });
-
-  // Store original button text
-  document.querySelectorAll('.form-submit').forEach(btn => {
-    btn.setAttribute('data-original', btn.textContent);
-  });
-
 });
 
 function loadFooter() {
@@ -104,7 +67,7 @@ function loadFooter() {
     <footer>
       <div class="footer-grid">
         <div class="footer-brand">
-          <div class="navbar-brand" style="margin-bottom: 15px;"><img src="image/logo.png" class="insulightLogo">JPA Trees</div>
+          <div class="navbar-brand" style="margin-bottom: 15px;"><img src="image/logo.png" class="logo">JPA Trees</div>
           <p>Together We document all trees present in the Jay Pritzker Academy Campus.</p>
         </div>
         <div class="footer-links">
@@ -146,7 +109,7 @@ topbar.className = 'navbar';
 // 2. Add content (e.g., using innerHTML for simplicity)
 topbar.innerHTML = `
 <a href="index.html" class="navbar-brand">
-    <img src="image/logo.png" class="insulightLogo">JPA Trees
+    <img src="image/logo.png" class="logo">JPA Trees
 </a>
 <ul class="nav-links">
   <li><a href="index.html">Home</a></li>
