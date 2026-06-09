@@ -497,93 +497,180 @@ footer {
 }
 
 /* ─────────────────────────────
-   CATALOGUE
+CATALOGUE
 ───────────────────────────── */
 
 .catalogue-feed {
   display: grid;
   gap: 32px;
 }
-
+  
 .catalogue-card {
   background: var(--white);
   border: 1px solid var(--gray-100);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
   overflow: hidden;
-  transition: 0.3s;
-  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
 }
-
+  
 .catalogue-card:hover {
   transform: translateY(-6px);
   box-shadow: var(--shadow-lg);
 }
-
-.catalogue-wrapper{
+  
+.catalogue-wrapper {
   display: flex;
-  align-items: center;   
-  gap: 15px;
+  gap: 24px;
+  align-items: stretch;
 }
-
+  
 .catalogue-image {
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  min-width: 320px;
+  height: 320px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
-
+  
 .catalogue-card:hover .catalogue-image {
-  transform: scale(1.04);
+  transform: scale(1.03);
 }
-
+  
 .catalogue-content {
+  flex: 1;
   padding: 28px;
-}
-
-.catalogue-name {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  margin-bottom: 8px;
+  justify-content: center;
 }
-
-.catalogue-name p {
-  color: var(--black);
-  font-size: 1rem;
-  margin-bottom: -100px;
-}
-
+  
 .catalogue-meta {
   display: flex;
-  gap: 10px;
   flex-wrap: wrap;
-  font-size: 1rem;
-  letter-spacing: 0.1em;
+  gap: 10px;
+  margin-bottom: 12px;
+  
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
+  
   color: var(--gold);
-  margin-bottom: 10px;
 }
-
-.catalogue-card p {
-  color: var(--black);
-  margin-bottom: 24px;
-  font-size: 0.94rem;
+  
+.catalogue-name {
+  margin-bottom: 12px;
 }
-
+  
+.catalogue-name h3 {
+  color: var(--dark-green);
+  margin-bottom: 4px;
+}
+  
+/* Scientific name + family + location icon row */
+  
+.catalogue-info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  
+  margin-bottom: 0px;
+}
+  
+.catalogue-details {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  
+  color: var(--gray-600);
+  font-size: 0.92rem;
+}
+  
+.catalogue-scientific {
+  font-style: italic;
+}
+  
+.catalogue-family {
+  font-weight: 600;
+}
+  
+.catalogue-map-link {
+  width: 42px;
+  height: 42px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background: var(--gold-light);
+  color: var(--gold);
+  
+  border-radius: 50%;
+  
+  flex-shrink: 0;
+  
+  transition: all 0.25s ease;
+}
+  
+.catalogue-map-link:hover {
+  background: var(--gold);
+  color: var(--white);
+  transform: scale(1.08);
+}
+  
+.catalogue-map-link svg {
+  width: 18px;
+  height: 18px;
+}
+  
+.catalogue-description {
+  color: var(--gray-600);
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+  
 .catalogue-link {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  
   color: var(--gold);
   font-weight: 600;
-  transition: 0.2s;
+  
+  transition: 0.2s ease;
 }
-
+  
 .catalogue-link:hover {
-  transform: translateX(3px);
-  color: white;
+  transform: translateX(4px);
 }
-
-
-/* MOBILE */
-
-@media (max-width: 768px) {}
+  
+  /* MOBILE */
+  
+  @media (max-width: 900px) {
+  
+  .catalogue-wrapper {
+    flex-direction: column;
+  }
+  
+  .catalogue-image {
+    width: 100%;
+    min-width: 100%;
+    height: 250px;
+  }
+  
+  .catalogue-content {
+    padding: 22px;
+  }
+  
+  .catalogue-info-row {
+    align-items: flex-start;
+  }
+  
+  .catalogue-details {
+    font-size: 0.85rem;
+  }
+}
+  
