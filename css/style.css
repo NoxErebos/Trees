@@ -369,6 +369,11 @@ img { max-width: 100%; display: block; }
   color: var(--teal);
 }
 
+.img-photo{
+  width: 200px;
+  height: 200px;
+}
+
 .team-info { padding: 24px 20px; }
 .team-info h3 { color: var(--navy); font-size: 1.1rem; margin-bottom: 4px; }
 .team-role { color: var(--gold); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 10px; }
