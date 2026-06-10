@@ -28,14 +28,14 @@ async function loadCatalogueItems() {
     
         article.innerHTML = `
           <div class="catalogue-wrapper">
-            <img src="${item.image || ''}" alt="${item.common || 'Tree'}" class="catalogue-image" loading="lazy">
+            <img src="${item.image}" alt="${item.common}" class="catalogue-image" loading="lazy">
     
             <div class="catalogue-content">
     
               <div class="catalogue-info-row">
 
                 <div class="catalogue-meta">
-                  <span>${item.common || 'Unknown Tree'}</span>
+                  <span>${item.nickname || 'Unknown Tree'}</span>
                   <span>•</span>
                   <span>${item.khmer || ''}</span>
                 </div>
@@ -49,7 +49,7 @@ async function loadCatalogueItems() {
               </div>
 
               <div class="catalogue-name">
-                <h3>${item.nickname || ''}</h3>
+                <h3>${item.common || ''}</h3>
                 <span class="catalogue-scientific">
                     ${item.scientific || ''}
                 </span>

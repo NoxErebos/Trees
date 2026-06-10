@@ -67,7 +67,7 @@ function loadFooter() {
     <footer>
       <div class="footer-grid">
         <div class="footer-brand">
-          <div class="navbar-brand" style="margin-bottom: 15px;"><img src="image/logo.png" class="logo">JPA Trees</div>
+          <div class="navbar-brand" style="margin-bottom: 15px;"><img src="image/logo.png" class="logo">Tree-Mendous Campus</div>
           <p>Together We document all trees present in the Jay Pritzker Academy Campus.</p>
         </div>
         <div class="footer-links">
@@ -109,7 +109,7 @@ topbar.className = 'navbar';
 // 2. Add content (e.g., using innerHTML for simplicity)
 topbar.innerHTML = `
 <a href="index.html" class="navbar-brand">
-    <img src="image/logo.png" class="logo">JPA Trees
+    <img src="image/logo.png" class="logo">Tree-Mendous Campus
 </a>
 <ul class="nav-links">
   <li><a href="index.html">Home</a></li>
