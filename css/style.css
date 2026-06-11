@@ -345,7 +345,7 @@ img { max-width: 100%; display: block; }
 
 .team-grid {
   display: grid;
-  grid-template-columns: 240px repeat(4, 5fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 28px;
   margin-top: 50px;
 }
@@ -362,16 +362,49 @@ img { max-width: 100%; display: block; }
 .team-card:hover { box-shadow: var(--shadow-md); transform: translateY(-5px); }
 
 .team-photo {
-  width: 100%; height: 200px;
-  background: linear-gradient(135deg, var(--teal-pale), var(--gray-100));
-  display: flex; align-items: center; justify-content: center;
-  font-size: 3.5rem;
-  color: var(--teal);
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
 }
 
-.img-photo{
-  width: 200px;
-  height: 200px;
+.img-photo {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  /* Bias toward faces */
+  object-position: center 20%;
+
+  display: block;
+}
+
+@media (max-width: 1400px) {
+  .team-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1100px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-photo {
+    height: 220px;
+  }
+}
+
+@media (max-width: 500px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .team-info { padding: 24px 20px; }
@@ -421,27 +454,6 @@ img { max-width: 100%; display: block; }
 .value-icon { font-size: 1.2rem; flex-shrink: 0; margin-top: 2px; }
 .value-text strong { color: var(--navy); display: block; font-size: 0.95rem; }
 .value-text span { font-size: 0.85rem; color: var(--gray-600); }
-
-.amount-grid {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 12px;
-}
-.amount-btn {
-  padding: 12px;
-  border: 2px solid var(--gray-300);
-  border-radius: var(--radius-sm);
-  background: none;
-  font-family: var(--font-body);
-  font-weight: 600;
-  font-size: 0.95rem;
-  color: var(--navy);
-  cursor: pointer;
-  transition: 0.2s;
-}
-.amount-btn.active, .amount-btn:hover {
-  border-color: var(--teal);
-  background: var(--teal-pale);
-  color: var(--teal);
-}
 
 /* ─── FOOTER ─── */
 footer {
@@ -529,12 +541,16 @@ CATALOGUE
   gap: 24px;
   align-items: stretch;
 }
-  
+
 .catalogue-image {
+  display: block;
+
   width: 320px;
   min-width: 320px;
   height: 320px;
+
   object-fit: cover;
+
   transition: transform 0.3s ease;
 }
   
@@ -662,8 +678,8 @@ CATALOGUE
   
   .catalogue-image {
     width: 100%;
-    min-width: 100%;
-    height: 250px;
+    height: 100%;
+    object-fit: cover;
   }
   
   .catalogue-content {
