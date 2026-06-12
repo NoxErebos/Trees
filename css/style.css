@@ -365,6 +365,8 @@ img { max-width: 100%; display: block; }
   width: 100%;
   height: 260px;
   overflow: hidden;
+  font-size: 4rem;
+  display: flex; align-items: center; justify-content: center;
 }
 
 .img-photo {
