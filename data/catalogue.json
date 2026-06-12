@@ -7,8 +7,20 @@
       "nickname": "Walter",
       "image": "image/catalogue/1.jpg",
       "map": "map.html#tree-1",
-      "description": "The sugar palm, scientifically known as Borassus flabellifer, is a tropical palm tree native to South and Southeast Asia. It is widely cultivated for its sweet sap, which can be processed into sugar, syrup, and alcoholic beverages. The tree can grow up to 30 meters tall and has large, fan-shaped leaves. The sugar palm is an important economic resource in many regions, providing food, fuel, and materials for construction and handicrafts.",
-      "cite": "https://www.cambodiauncovered.com/cambodia/palmtrees.html",
+      "description": "An iconic symbol and national treasure of Cambodia, the sugar palm tree has been beloved by people of this country for generations. Almost every part of it can be used. Fun fact: there is a famous Khmer saying about sugar palm trees that goes “Drop by drop, the bottle is filled”, referring to the slow drop of sweet palm sap that fills the pipe used to collect it, a process that may take half a day and requires immense patience to complete.",
+      "cite": "https://en.wikipedia.org/wiki/Borassus_flabellifer",
       "id": "1"
+    },
+    {
+      "scientific": "Syzygium cumini ",
+      "common": "Java Plum",
+      "khmer": "ព្រេីង",
+      "family": "Myrtle",
+      "nickname": "Jamie",
+      "image": "image/catalogue/2.jpg",
+      "map": "map.html#tree-2",
+      "description": "A favorite cultural snack eaten seasonally at the end of the dry season, the Java Plum is a fruit found on trees all across Cambodia. During the period of Khmer New Year, it is commonly eaten as a snack with dipping salts composed of salt, sugar, MSG, and chili peppers. Fun fact: compounds in the fruit can stain your tongue purple and blue.",
+      "cite": "https://en.wikipedia.org/wiki/Syzygium_cumini",
+      "id": "2"
     }
   ]

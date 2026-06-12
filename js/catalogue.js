@@ -18,17 +18,14 @@ async function loadCatalogueItems() {
     
     feed.innerHTML = "";
     
-    catalogueItems
-      .slice()
-      .reverse()
-      .forEach(item => {
+    catalogueItems.slice().forEach(item => {
     
         const article = document.createElement("article");
         article.className = "catalogue-card fade-up";
     
         article.innerHTML = `
           <div class="catalogue-wrapper">
-            <img src="${item.image}" alt="${item.common}" class="catalogue-image" loading="lazy">
+            <img src="${item.image}" alt="${item.common}" class="catalogue-photo" loading="lazy">
     
             <div class="catalogue-content">
     

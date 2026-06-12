@@ -555,6 +555,15 @@ CATALOGUE
 
   transition: transform 0.3s ease;
 }
+
+.catalogue-photo {
+  width: 320px;
+  height: 320px;
+
+  object-fit: cover;
+
+  transition: transform 0.3s ease;
+}
   
 .catalogue-card:hover .catalogue-image {
   transform: scale(1.03);
@@ -679,6 +688,12 @@ CATALOGUE
   }
   
   .catalogue-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .catalogue-photo {
     width: 100%;
     height: 100%;
     object-fit: cover;
