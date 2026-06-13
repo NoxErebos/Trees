@@ -25,8 +25,8 @@ async function loadCatalogueItems() {
     
         article.innerHTML = `
           <div class="catalogue-wrapper">
-            <img src="${item.image}" alt="${item.common}" class="catalogue-image" loading="lazy">
-    
+            <img src="${item.image}" class="catalogue-image" loading="lazy">
+
             <div class="catalogue-content">
     
               <div class="catalogue-info-row">

@@ -12,7 +12,7 @@
       "id": "1"
     },
     {
-      "scientific": "Syzygium cumini ",
+      "scientific": "Syzygium cumini",
       "common": "Java Plum",
       "khmer": "ព្រេីង",
       "family": "Myrtle",
@@ -22,5 +22,53 @@
       "description": "A favorite cultural snack eaten seasonally at the end of the dry season, the Java Plum is a fruit found on trees all across Cambodia. During the period of Khmer New Year, it is commonly eaten as a snack with dipping salts composed of salt, sugar, MSG, and chili peppers. Fun fact: compounds in the fruit can stain your tongue purple and blue.",
       "cite": "https://en.wikipedia.org/wiki/Syzygium_cumini",
       "id": "2"
+    },
+    {
+      "scientific": "Muntingia calabura",
+      "common": "Jamaican Cherry",
+      "khmer": "ក្រខុប",
+      "family": "Muntingiaceae",
+      "nickname": "PLACEHOLDER",
+      "image": "image/catalogue/3.jpg",
+      "map": "map.html#tree-3",
+      "description": "With blossoms often mistaken for those of strawberry plants, the Jamaican Cherry tree has long been another popular snack of Cambodians. The trees are resilient and can often be found by roadsides, with blooms and fruit all year round. The fruit is sweet, comparable to the taste of cotton candy or caramel, with several thousands of tiny yellow seeds inside. Fun fact: Jamaican cherries have no relation to common cherries!",
+      "cite": "https://en.wikipedia.org/wiki/Muntingia_calabura",
+      "id": "3"
+    },
+    {
+      "scientific": "Samanea saman",
+      "common": "Monkey Pod Tree",
+      "khmer": "ចាន់គិរី​/ចាន់រុី",
+      "family": "Fabaceae",
+      "nickname": "PLACEHOLDER",
+      "image": "image/catalogue/4.jpg",
+      "map": "map.html#tree-4",
+      "description": "A common source of shade from the grueling sun, the Monkey Pod Tree is a more rurally-found tree in Cambodia. A massive tree commonly used as a local gathering place, it can reach up to heights of 15-25 meters, with canopy diameters of up to 61 meters. Timber and shade have been the most common uses for this tree. Fun fact: it directs water to its roots by folding up its leaves at night, allowing rainwater to fall straight down.",
+      "cite": "https://en.wikipedia.org/wiki/Samanea_saman",
+      "id": "4"
+    },
+    {
+      "scientific": "Artocarpus heterophyllus",
+      "common": "Jackfruit",
+      "khmer": "ខ្នុរ",
+      "family": "Moraceae",
+      "nickname": "PLACEHOLDER",
+      "image": "image/catalogue/5.jpg",
+      "map": "map.html#tree-5",
+      "description": "...",
+      "cite": "https://en.wikipedia.org/wiki/Artocarpus_heterophyllus",
+      "id": "5"
+    },
+    {
+      "scientific": "Artocarpus heterophyllus",
+      "common": "Jackfruit",
+      "khmer": "ខ្នុរ",
+      "family": "Moraceae",
+      "nickname": "PLACEHOLDER",
+      "image": "image/catalogue/5.jpg",
+      "map": "map.html#tree-5",
+      "description": "...",
+      "cite": "https://en.wikipedia.org/wiki/Artocarpus_heterophyllus",
+      "id": "5"
     }
   ]

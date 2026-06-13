@@ -547,12 +547,11 @@ CATALOGUE
 .catalogue-image {
   display: block;
 
-  width: 320px;
-  min-width: 320px;
-  height: 320px;
+  width: 340px;
+  height: 340px;
 
   object-fit: cover;
-
+ 
   transition: transform 0.3s ease;
 }
 
