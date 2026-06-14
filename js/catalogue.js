@@ -22,6 +22,7 @@ async function loadCatalogueItems() {
     
         const article = document.createElement("article");
         article.className = "catalogue-card fade-up";
+        article.id = `tree-${item.id}`;
     
         article.innerHTML = `
           <div class="catalogue-wrapper">
@@ -74,6 +75,7 @@ async function loadCatalogueItems() {
         });
     
     });
+
   } catch (error) {
     console.error("Failed to load catalogue items:", error);
     
@@ -88,6 +90,32 @@ async function loadCatalogueItems() {
       </article>
     `;
   }
+  const params = new URLSearchParams(window.location.search);
+
+    const selectedTree = params.get("tree");
+
+    if (selectedTree) {
+
+    setTimeout(() => {
+
+        const card = document.getElementById(
+        `tree-${selectedTree}`
+        );
+
+        if (card) {
+
+        card.scrollIntoView({
+            behavior: "smooth",
+            block: "center"
+        });
+
+        card.classList.add("selected-tree");
+
+        }
+
+    }, 300);
+
+    }
 }
   
 document.addEventListener("DOMContentLoaded", loadCatalogueItems);

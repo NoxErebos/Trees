@@ -117,7 +117,6 @@ topbar.innerHTML = `
   <li><a href="map.html">Map</a></li>
   <li><a href="about.html">About Us</a></li>
 </ul>
-<div class="hamburger"><span></span><span></span><span></span></div>
 `;
 
 // 3. Insert it into the body or a specific container
