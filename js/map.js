@@ -36,32 +36,6 @@ async function loadMapMarkers() {
       console.error(error);
   
     }
-    const params = new URLSearchParams(window.location.search);
-
-    const selectedTree = params.get("tree");
-
-    if (selectedTree) {
-
-    setTimeout(() => {
-
-        const card = document.getElementById(
-        `tree-${selectedTree}`
-        );
-
-        if (card) {
-
-        card.scrollIntoView({
-            behavior: "smooth",
-            block: "center"
-        });
-
-        card.classList.add("selected-tree");
-
-        }
-
-    }, 300);
-
-    }
   }
   
   document.addEventListener("DOMContentLoaded", loadMapMarkers);
