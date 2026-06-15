@@ -51,9 +51,9 @@ async function loadCatalogueItems() {
                 <span class="catalogue-scientific">
                     ${item.scientific || ''}
                 </span>
-                ${item.family ? '<span>•</span>' : ''}
-                <span class="catalogue-family">
-                  ${item.family || ''}
+                ${item.genus ? '<span>•</span>' : ''}
+                <span class="catalogue-genus">
+                  ${item.genus || ''}
                 </span>
               </div>
               <div>
@@ -90,32 +90,21 @@ async function loadCatalogueItems() {
       </article>
     `;
   }
+
   const params = new URLSearchParams(window.location.search);
-
-    const selectedTree = params.get("tree");
-
-    if (selectedTree) {
-
+  const selectedTree = params.get("tree");
+  if (selectedTree) {
     setTimeout(() => {
-
-        const card = document.getElementById(
-        `tree-${selectedTree}`
-        );
-
+        const card = document.getElementById(`tree-${selectedTree}`);
         if (card) {
-
-        card.scrollIntoView({
-            behavior: "smooth",
-            block: "center"
-        });
-
-        card.classList.add("selected-tree");
-
+          card.scrollIntoView({
+              behavior: "smooth",
+              block: "center",
+          });
+          card.classList.add("selected-tree");
         }
-
     }, 300);
-
-    }
+  }
 }
   
 document.addEventListener("DOMContentLoaded", loadCatalogueItems);
