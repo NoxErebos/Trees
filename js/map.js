@@ -6,6 +6,7 @@ async function loadMapMarkers() {
     const trees = await response.json();
     trees.forEach(tree => {
       const marker = document.createElement("a");
+      marker.id = `tree-${tree.id}`;
       marker.className = "tree-marker";
       marker.href = `catalogue.html?tree=${tree.id}`;
       marker.textContent = tree.id;
@@ -17,5 +18,18 @@ async function loadMapMarkers() {
   } catch(error) {
     console.error(error);
   }
+  highlightSelectedTree()
+}
+
+function highlightSelectedTree() {
+    const params = new URLSearchParams(window.location.search);
+    const selectedTree = params.get("tree");
+    if (!selectedTree) return;
+    setTimeout(() => {
+        const card = document.getElementById(`tree-${selectedTree}`);
+        if (!card) return;
+        card.scrollIntoView({behavior: "smooth", block: "center"});
+        card.classList.add("map-selected-tree");
+    }, 300);
 }
 document.addEventListener("DOMContentLoaded", loadMapMarkers);

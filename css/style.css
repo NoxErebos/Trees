@@ -760,6 +760,15 @@ CATALOGUE
   animation: selectedPulse 2s infinite;
 }
 
+.map-selected-tree {
+  border: 3px solid var(--gold);
+  background: var(--gold-golden);
+  color: var(--gray-800);
+  box-shadow:0 0 0 4px rgba(232,160,32,0.2), var(--shadow-lg);
+
+  animation: selectedPulse 2s infinite;
+}
+
 @keyframes selectedPulse {
 
   0% {
@@ -801,13 +810,13 @@ CATALOGUE
   width: 100%; 
   padding: 10px; 
   border-radius: 14px; 
-  border: 2px solid var(--green); 
+  border: 1px solid var(--green); 
   background: rgba(255,255,255,0.04); 
-  color: white; 
+  color: black; 
   outline: none; 
   transition: 0.2s; 
 } 
 
 .admin-search:focus { 
-  border: 3px solid var(--pastel-green); 
+  border: 2px solid var(--pastel-green); 
 }
