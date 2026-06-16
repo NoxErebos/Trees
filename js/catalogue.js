@@ -1,7 +1,5 @@
 async function loadCatalogueItems() {
-
   const feed = document.getElementById("catalogue-feed");
-  
   if (!feed) {
   console.error("No #catalogue-feed found");
   return;
@@ -90,7 +88,6 @@ async function loadCatalogueItems() {
       </article>
     `;
   }
-
   const params = new URLSearchParams(window.location.search);
   const selectedTree = params.get("tree");
   if (selectedTree) {
