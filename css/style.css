@@ -781,3 +781,33 @@ CATALOGUE
   }
 
 }
+
+.search { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+} 
+
+.admin-search-wrapper { 
+  margin-top: 20px; 
+  width: 100%;             /* Let it shrink on small screens */
+  max-width: 700px;        /* Keep your desired size cap */
+  margin-left: auto;       /* Forces equal left spacing */
+  margin-right: auto;      
+} 
+
+.admin-search { 
+  width: 100%; 
+  padding: 10px; 
+  border-radius: 14px; 
+  border: 2px solid var(--green); 
+  background: rgba(255,255,255,0.04); 
+  color: white; 
+  outline: none; 
+  transition: 0.2s; 
+} 
+
+.admin-search:focus { 
+  border: 3px solid var(--pastel-green); 
+}

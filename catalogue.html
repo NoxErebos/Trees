@@ -17,14 +17,16 @@
         <p style="color: rgba(255,255,255,0.75); max-width: 560px; margin: 0 auto; font-size: 1.05rem;">Each tree on campus is documented with its scientific name, common name, genus, description, and more.</p>
       </div>
     </section>
-    <!-- ─── TREE CATALOGUE ─── -->
-    <section class="section section-light">
-
+    <section class="search">
+      <div class="admin-search-wrapper">
+          <input type="text" id="treeSearch" class="admin-search" placeholder="Search Trees (Name or #)...">
+      </div>
+    </section>
+    <section class="section section-light" style="margin-top: -35px;">
       <div id="catalogue-feed" class="catalogue-feed"></div>
-
     </section>
   </div>
-
+  <script src="js/search.js"></script>
   <script src="js/main.js"></script>
   <script src="js/catalogue.js"></script>
 </body>
