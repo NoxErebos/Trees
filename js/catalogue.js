@@ -11,7 +11,6 @@ async function loadCatalogueItems() {
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
-    
     const catalogueItems = await response.json();
     
     feed.innerHTML = "";
