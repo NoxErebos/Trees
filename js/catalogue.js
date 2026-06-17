@@ -95,7 +95,6 @@ function setupSearch() {
                 (item.id || "").toLowerCase().includes(query)
             );
         });
-        
         // Render results or handle the empty "no match" state safely
         if (filteredItems.length === 0) {
             console.log("ERROR: No matching data found!");

@@ -186,12 +186,12 @@
       "common": "Tamarind",
       "khmer": "ដើមអំពិល",
       "genus": "Tamarindus",
-      "nickname": "PLACEHOLDER",
+      "nickname": "INSA",
       "image": "image/catalogue/14.png",
       "map": "map.html#tree-14",
       "mapX": 33.95,
       "mapY": 57.3,
-      "description": "...",
+      "description": "A highly valued fruit, recognizable for its vibrant, small, copious leaves alongside rich brown, nutrient-filled deliciously sour and sweet fruits. These fruits are far more than a culinary ingredient, they are a staple woven into daily life, traditional medicine, and historical heritage. Used to enhance flavor in meals, to assist digestion, and to delight the heart with delicious snacks, the Tamarind deserves a place amongst Cambodia’s most valued fruits.",
       "cite": "https://en.wikipedia.org/wiki/Tamarindus_indica",
       "id": "14"
     },
@@ -485,7 +485,7 @@
       "map": "map.html#tree-35",
       "mapX": 51.99,
       "mapY": 20,
-      "description": "...",
+      "description": "With uses spanning from traditional medicine to agricultural usage, the Kassod is a tree with small, yellow, clustered flowers that grows at an incredible rate. In Cambodia, its bark and stem are used primarily to treat skin conditions, expel intestinal parasites, and reduce blood sugar levels. In foods, it can be used in curries, while in timber and woodworking, its wood is prized for its hardness and density. Additionally, it is eco-friendly, with primary uses in preventing soil erosion and improving soil fertility. Fun fact: although it can be used as food for certain animals, it is toxic to poultry and swine.",
       "cite": "https://en.wikipedia.org/wiki/Senna_siamea",
       "id": "35"
     },
@@ -513,7 +513,7 @@
       "map": "map.html#tree-37",
       "mapX": 49.9,
       "mapY": 23.6,
-      "description": "...",
+      "description": "Prized for its fruit, the Bilimbi is a tree that thrives in the tropical climate of Southeast Asia. It is used not only as a food by acting as a natural souring agent in soups and stews, but can also be eaten raw with an iconic Cambodian mixture of pounded chilis and salt. In traditional medicine, it is used to cure coughs or colds, lower blood pressure, regulate sugar levels, and even treat acne. Fun fact: It is cauliflorous, meaning that its fruit grows directly out of its trunk and branches.",
       "cite": "https://en.wikipedia.org/wiki/Averrhoa_bilimbi",
       "id": "37"
     },
@@ -527,7 +527,7 @@
       "map": "map.html#tree-38",
       "mapX": 38.5,
       "mapY": 46.5,
-      "description": "...",
+      "description": "With a name that suggests that it may resemble a salamander, the Salamander tree is a tree whose name has evolved from the villain of old myths to a well-loved fruit. Its name stems from medieval folklore, which claims that a salamander creeping into a tree would poison all the fruit, with this tree being the victim of salamanders’ poisoning. It is often used in traditional medicines to treat diarrhea, snakebites, wounds, and relieve pain, while its fruits are eaten raw or used in various foods. Fun fact: It has no relation to currant shrubs, despite being also commonly called the currant tree.",
       "cite": "https://en.wikipedia.org/wiki/Antidesma_bunius",
       "id": "38"
     },
