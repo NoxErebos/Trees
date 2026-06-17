@@ -1,4 +1,5 @@
 const feed = document.getElementById("catalogue-feed");
+const searchBar = document.getElementById("treeSearch");
 let items = [];
 async function loaditems() {
     try {
@@ -76,16 +77,40 @@ function highlightSelectedTree() {
 }
 
 function setupSearch() {
-    const searchBar = document.getElementById("treeSearch");
     if (!searchBar) return;
     searchBar.addEventListener("input", () => {
-        const query = searchBar.value.toLowerCase();
+        const query = searchBar.value.toLowerCase().trim();
+        // If search is cleared, show ALL items again
+        if (query === "") {
+            renderGames(items); 
+            return;
+        }
+        // Filter instantly from the global 'items' array (no fetch needed)
         const filteredItems = items.filter(item => {
-            return ((item.common || "").toLowerCase().includes(query)||(item.scientific || "").toLowerCase().includes(query)||(item.khmer || "").toLowerCase().includes(query)||(item.nickname || "").toLowerCase().includes(query)||(item.id || "").toLowerCase().includes(query)
+            return (
+                (item.common || "").toLowerCase().includes(query) ||
+                (item.scientific || "").toLowerCase().includes(query) ||
+                (item.khmer || "").toLowerCase().includes(query) ||
+                (item.nickname || "").toLowerCase().includes(query) ||
+                (item.id || "").toLowerCase().includes(query)
             );
         });
-        renderGames(filteredItems);
+        
+        // Render results or handle the empty "no match" state safely
+        if (filteredItems.length === 0) {
+            console.log("ERROR: No matching data found!");
+            feed.innerHTML = `
+                <article class="catalogue-card">
+                    <div class="catalogue-content" style="text-align: center; color: var(--gold);">
+                        <h3>No trees found matching "${searchBar.value}"</h3>
+                    </div>
+                </article>
+            `;
+        } else {
+            renderGames(filteredItems);
+        } 
     });
 }
+
 
 document.addEventListener("DOMContentLoaded", loaditems);
