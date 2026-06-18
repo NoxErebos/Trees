@@ -4,7 +4,6 @@
   --green:        #00b000;
   --pastel-green: #77DD77;
   --dark-green:   #007a00;
-  --teal-light: #2EA8BA;
   --teal-pale:  #E8F6F8;
   --gold:       #e8a020;
   --gold-light: #FDF3E0;
@@ -14,7 +13,6 @@
   --gray-300:   #B0C4CC;
   --gray-600:   #5A7280;
   --gray-800:   #1E3340;
-  --red-soft:   #E84B4B;
   --green-soft: #2DB87A;
   --gold-golden: #F9E000;
 
@@ -28,7 +26,6 @@
   --radius-sm: 6px;
   --radius-md: 14px;
   --radius-lg: 24px;
-  --radius-xl: 40px;
 
   --nav-height: 70px;
 }
@@ -325,7 +322,7 @@ img { max-width: 100%; display: block; }
 .card::before {
   content: '';
   position: absolute; top: 0; left: 0; right: 0; height: 4px;
-  background: linear-gradient(90deg, var(--teal), var(--teal-light));
+  background: linear-gradient(90deg, var(--green), var(--pastel-green));
 }
 .card:hover { box-shadow: var(--shadow-md); transform: translateY(-4px); }
 
@@ -372,12 +369,8 @@ img { max-width: 100%; display: block; }
 .img-photo {
   width: 100%;
   height: 100%;
-
   object-fit: cover;
-
-  /* Bias toward faces */
   object-position: center 20%;
-
   display: block;
 }
 
@@ -410,7 +403,7 @@ img { max-width: 100%; display: block; }
 }
 
 .team-info { padding: 24px 20px; }
-.team-info h3 { color: var(--navy); font-size: 1.1rem; margin-bottom: 4px; }
+.team-info h3 { color: var(--dark-green); font-size: 1.1rem; margin-bottom: 4px; }
 .team-role { color: var(--gold); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 10px; }
 .team-info p { font-size: 0.88rem; }
 
@@ -496,7 +489,6 @@ footer {
   font-size: 0.78rem;
 }
 
-/* ─── ANIMATIONS ─── */
 .fade-up {
   opacity: 0;
   transform: translateY(30px);
