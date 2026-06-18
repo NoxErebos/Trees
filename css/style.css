@@ -712,8 +712,8 @@ CATALOGUE
 .tree-marker {
   position: absolute;
 
-  width: 32px;
-  height: 32px;
+  width: 38px;
+  height: 38px;
 
   border-radius: 50%;
 
@@ -726,7 +726,7 @@ CATALOGUE
   align-items: center;
   justify-content: center;
 
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 700;
 
   text-decoration: none;
@@ -754,8 +754,10 @@ CATALOGUE
 
 .map-selected-tree {
   border: 3px solid var(--gold);
-  background: var(--gold-golden);
-  color: var(--gray-800);
+
+  color: var(--gold);
+  font-weight: bolder;
+  font-size: 1.1rem;
   box-shadow:0 0 0 4px rgba(232,160,32,0.2), var(--shadow-lg);
 
   animation: selectedPulse 2s infinite;
