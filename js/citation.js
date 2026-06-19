@@ -22,8 +22,6 @@ async function loaditems() {
     }
 }
 
-
-
 function renderGames(gameList) {
     feed.innerHTML = "";
     gameList.forEach(item => {
