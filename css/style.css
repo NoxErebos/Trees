@@ -718,9 +718,9 @@ CATALOGUE
   border-radius: 50%;
 
   background: var(--white);
-  border: 2px solid var(--gold);
+  border: 2px solid var(--dark-green);
 
-  color: var(--dark-green);
+  color: var(--green);
 
   display: flex;
   align-items: center;
@@ -737,17 +737,15 @@ CATALOGUE
 }
 
 .tree-marker:hover {
-  background: var(--gold);
+  background: var(--pastel-green);
   color: var(--white);
-  transform: translate(-50%, -50%) scale(1.15);
+  transform: translate(-50%, -50%) scale(1.1);
 }
 
 .selected-tree {
   border: 3px solid var(--gold);
 
-  box-shadow:
-    0 0 0 4px rgba(232,160,32,0.2),
-    var(--shadow-lg);
+  box-shadow: 0 0 0 4px rgba(232,160,32,0.2), var(--shadow-lg);
 
   animation: selectedPulse 2s infinite;
 }
