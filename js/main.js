@@ -77,6 +77,7 @@ function loadFooter() {
             <li><a href="catalogue.html">Trees</a></li>
             <li><a href="map.html">Map</a></li>
             <li><a href="about.html">About Us</a></li>
+            <li><a href="citation.html">Citation</a></li>
           </ul>
         </div>
         <div class="footer-links">
