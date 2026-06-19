@@ -21,38 +21,45 @@ async function loaditems() {
         `;
     }
 }
+
+
+
 function renderGames(gameList) {
-  feed.innerHTML = "";
-  gameList.forEach(item => {
-      const article = document.createElement("article");
-      article.className = "catalogue-card fade-up";
-      article.id = `tree-${item.id}`;
-      article.innerHTML = `
-      <div class="catalogue-wrapper">
-          <div class="catalogue-content">
-              <div class="catalogue-info-row">
-                  <div class="catalogue-meta">${item.khmer || ""}</div>
-                  <a href="map.html?tree=${item.id}" class="catalogue-map-link" title="View on Campus Map" aria-label="View on Campus Map">
-                      <svg viewBox="0 0 24 24" fill="currentColor">
-                          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/>
-                      </svg>
-                  </a>
-              </div>
-              <div class="catalogue-name">
-                  <h3>${item.common || ""}</h3>
-              </div>
-              <div class="catalogue-info-row">
-                  <a href="${item.cite1 || "#"}" target="_blank" rel="noopener noreferrer" class="catalogue-link">Citation 1 →</a>
-                  <a href="${item.cite2 || "#"}" target="_blank" rel="noopener noreferrer" class="catalogue-link">Citation 2 →</a>
-                  <a href="${item.cite3 || "#"}" target="_blank" rel="noopener noreferrer" class="catalogue-link">Citation 3 →</a>
-                  <span class="catalogue-id" style="color: var(--gold);">#${item.id}</span>
-              </div>
-          </div>
-      </div>
-      `;
-      feed.appendChild(article);
-      requestAnimationFrame(() => {article.classList.add("visible");});
-  });
+    feed.innerHTML = "";
+    gameList.forEach(item => {
+        let teamHTML = "";
+        item.team.forEach(member => {
+            teamHTML += `
+                <a href="${item.cite1 || "#"}" target="_blank" rel="noopener noreferrer" class="catalogue-link">Citation 1 →</a>
+            `;
+        });
+        const article = document.createElement("article");
+        article.className = "catalogue-card fade-up";
+        article.id = `tree-${item.id}`;
+        article.innerHTML = `
+        <div class="catalogue-wrapper">
+            <div class="catalogue-content">
+                <div class="catalogue-info-row">
+                    <div class="catalogue-meta">${item.khmer || ""}</div>
+                    <a href="map.html?tree=${item.id}" class="catalogue-map-link" title="View on Campus Map" aria-label="View on Campus Map">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="catalogue-name">
+                    <h3>${item.common || ""}</h3>
+                </div>
+                <div class="catalogue-info-row">
+                    <div>${teamHTML}</div>
+                    <span class="catalogue-id" style="color: var(--gold);">#${item.id}</span>
+                </div>
+            </div>
+        </div>
+        `;
+        feed.appendChild(article);
+        requestAnimationFrame(() => {article.classList.add("visible");});
+    });
 }
 
 function setupSearch() {
