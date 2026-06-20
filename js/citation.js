@@ -1,6 +1,7 @@
 const feed = document.getElementById("citation-feed");
 const searchBar = document.getElementById("citeSearch");
 let items = [];
+
 async function loaditems() {
     try {
         const response = await fetch("data/citations.json");
@@ -12,25 +13,33 @@ async function loaditems() {
         setupSearch();
     } catch (error) {
         console.error(error);
-        feed.innerHTML = `
-            <article class="catalogue-card">
-                <div class="catalogue-content">
-                    Failed to load citations.
-                </div>
-            </article>
-        `;
+        if (feed) {
+            feed.innerHTML = `
+                <article class="catalogue-card">
+                    <div class="catalogue-content">
+                        Failed to load citations.
+                    </div>
+                </article>
+            `;
+        }
     }
 }
 
 function renderGames(gameList) {
+    if (!feed) return;
     feed.innerHTML = "";
+    
     gameList.forEach(item => {
         let teamHTML = "";
-        item.team.forEach(member => {
+        // Safeguard against missing or non-array 'cite' properties
+        const citations = Array.isArray(item.cite) ? item.cite : [];
+        
+        citations.forEach(citation => {
             teamHTML += `
-                <a href="${item.cite1 || "#"}" target="_blank" rel="noopener noreferrer" class="catalogue-link">Citation 1 →</a>
+                <a href="${citation.link || "#"}" target="_blank" rel="noopener noreferrer" class="catalogue-link">Citation ${citation.id} →</a>
             `;
         });
+
         const article = document.createElement("article");
         article.className = "catalogue-card fade-up";
         article.id = `tree-${item.id}`;
@@ -49,37 +58,45 @@ function renderGames(gameList) {
                     <h3>${item.common || ""}</h3>
                 </div>
                 <div class="catalogue-info-row">
-                    <div>${teamHTML}</div>
+                    <div class="citation-row">${teamHTML}</div>
                     <span class="catalogue-id" style="color: var(--gold);">#${item.id}</span>
                 </div>
             </div>
         </div>
         `;
+        
         feed.appendChild(article);
-        requestAnimationFrame(() => {article.classList.add("visible");});
+        
+        // Use a double requestAnimationFrame or setTimeout to guarantee the fade-in animation triggers
+        setTimeout(() => {
+            article.classList.add("visible");
+        }, 10);
     });
 }
 
 function setupSearch() {
     if (!searchBar) return;
+    
     searchBar.addEventListener("input", () => {
         const query = searchBar.value.toLowerCase().trim();
-        // If search is cleared, show ALL items again
+        
         if (query === "") {
             renderGames(items); 
             return;
         }
-        // Filter instantly from the global 'items' array (no fetch needed)
+        
         const filteredItems = items.filter(item => {
+            // FIXED: Force item.id to string using String() before running toLowerCase()
+            const itemIdStr = String(item.id || "");
+            
             return (
                 (item.common || "").toLowerCase().includes(query) ||
                 (item.khmer || "").toLowerCase().includes(query) ||
-                (item.id || "").toLowerCase().includes(query)
+                itemIdStr.toLowerCase().includes(query)
             );
         });
-        // Render results or handle the empty "no match" state safely
+        
         if (filteredItems.length === 0) {
-            console.log("ERROR: No matching data found!");
             feed.innerHTML = `
                 <article class="catalogue-card">
                     <div class="catalogue-content" style="text-align: center; color: var(--gold);">
@@ -92,6 +109,5 @@ function setupSearch() {
         } 
     });
 }
-
 
 document.addEventListener("DOMContentLoaded", loaditems);

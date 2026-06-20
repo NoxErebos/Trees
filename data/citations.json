@@ -3,20 +3,44 @@
         "common": "Sugar Palm",
         "khmer": "ដើមត្នោត",
         "map": "map.html#tree-1",
-        "cite1": "https://cambodianess.com/article/drop-by-drop-the-bottle-is-filled-how-people-make-sugar-from-palm-tree-sap",
-        "cite2": "https://www.cambodiauncovered.com/cambodia/palmtrees.html",
-        "cite3": "https://www.fao.org/4/w9980t/w9980t04.html",
-        "cite4": "",
+        "cite" : [
+            {
+                "link": "https://cambodianess.com/article/drop-by-drop-the-bottle-is-filled-how-people-make-sugar-from-palm-tree-sap",
+                "id": "1"
+            },
+            {
+                "link": "https://www.cambodiauncovered.com/cambodia/palmtrees.html",
+                "id": "2"
+            },
+            {
+                "link": "https://www.fao.org/4/w9980t/w9980t04.html",
+                "id": "3"
+            }
+        ],
         "id": "1"
     },
     {
         "common": "Java Plum",
         "khmer": "ព្រេីង",
         "map": "map.html#tree-2",
-        "cite1": "https://helloangkor.com/a-picture-guide-to-cambodian-fruits/",
-        "cite2": "https://www.khmertimeskh.com/50733504/trendy-fruit-four-seasonal-fruits-you-should-not-miss-now-that-they-are-in-season/#google_vignette",
-        "cite3": "https://www.apkamuaalij.com/blogs/17-incredible-benefits-of-jamun-java-plum-for-health-wellness",
-        "cite4": "https://www.iucnredlist.org/species/49487196/145821979",
+        "cite" : [
+            {
+                "link": "https://helloangkor.com/a-picture-guide-to-cambodian-fruits/",
+                "id": "1"
+            },
+            {
+                "link": "https://www.khmertimeskh.com/50733504/trendy-fruit-four-seasonal-fruits-you-should-not-miss-now-that-they-are-in-season/#google_vignette",
+                "id": "2"
+            },
+            {
+                "link": "https://www.apkamuaalij.com/blogs/17-incredible-benefits-of-jamun-java-plum-for-health-wellness",
+                "id": "3"
+            },
+            {
+                "link": "https://www.iucnredlist.org/species/49487196/145821979",
+                "id": "4"
+            }
+        ],
         "id": "2"
     }
 ]

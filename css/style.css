@@ -812,3 +812,9 @@ CATALOGUE
 .admin-search:focus { 
   border: 2px solid var(--pastel-green); 
 }
+
+.citation-row {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
