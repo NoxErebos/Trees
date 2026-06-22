@@ -46,16 +46,13 @@ function renderGames(gameList) {
         article.innerHTML = `
         <div class="catalogue-wrapper">
             <div class="catalogue-content">
-                <div class="catalogue-info-row">
-                    <div class="catalogue-meta">${item.khmer || ""}</div>
+                <div class="catalogue-info-row" style="margin-bottom: 15px; display: flex; justify-content-column: center; align-items: center;">
+                    <div class="catalogue-name"><h3>${item.common || ""}</h3></div>
                     <a href="map.html?tree=${item.id}" class="catalogue-map-link" title="View on Campus Map" aria-label="View on Campus Map">
                         <svg viewBox="0 0 24 24" fill="currentColor">
                             <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/>
                         </svg>
                     </a>
-                </div>
-                <div class="catalogue-name">
-                    <h3>${item.common || ""}</h3>
                 </div>
                 <div class="catalogue-info-row">
                     <div class="citation-row">${teamHTML}</div>

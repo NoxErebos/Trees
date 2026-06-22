@@ -16,7 +16,7 @@
   {
     "scientific": "Syzygium cumini",
     "common": "Java Plum",
-    "khmer": "ព្រេីង",
+    "khmer": "ព្រីង",
     "genus": "Syzygium",
     "nickname": "Jamie",
     "image": "image/catalogue/2.png",
@@ -161,8 +161,8 @@
     "nickname": "PLACEHOLDER",
     "image": "image/catalogue/12.png",
     "map": "map.html#tree-12",
-    "mapX": 70.85,
-    "mapY": 75.5,
+    "mapX": 57.55,
+    "mapY": 79.9,
     "description": "A commodity among families in rural villages, this palm has become known by most in Cambodia for its popularity among old people. The areca nut is widely chewed by local families, often wrapped with betel leaves and mineral slaked lime. In Cambodian traditional medicine, the nuts and leaves are used to treat morning sickness, kill intestinal worms, and provide relief from indigestion. Fun fact: studies show that around 50% of elderly women in Cambodia chew them on the regular.",
     "cite": "https://en.wikipedia.org/wiki/Cocos_nucifera",
     "id": "12"
@@ -239,7 +239,7 @@
   },
   {
     "scientific": "Cananga odorata",
-    "common": "Ylang-Ylang",
+    "common": "Ylang-ylang",
     "khmer": "ដើមក្រវាន់",
     "genus": "Cananga",
     "nickname": "PLACEHOLDER",
@@ -435,7 +435,7 @@
   },
   {
     "scientific": "Caryota urens",
-    "common": "Fish-tail palm",
+    "common": "Fish-tail Palm",
     "khmer": "ដើមទន្សែ",
     "genus": "Caryota",
     "nickname": "PLACEHOLDER",
@@ -455,8 +455,8 @@
     "nickname": "PLACEHOLDER",
     "image": "image/catalogue/33.png",
     "map": "map.html#tree-33",
-    "mapX": 53.9,
-    "mapY": 22.95,
+    "mapX": 60.4,
+    "mapY": 12.4,
     "description": "The Madagascar almond is a beautiful tropical tree found in Madagascar, characterized by its unique layers of branches that create a well-balanced umbrella-shaped canopy. This tree is usually grown for its beauty and is an excellent shade tree, growing well in tropical areas.",
     "cite": "https://en.wikipedia.org/wiki/Terminalia_mantaly",
     "id": "33"
@@ -483,8 +483,8 @@
     "nickname": "PLACEHOLDER",
     "image": "image/catalogue/35.png",
     "map": "map.html#tree-35",
-    "mapX": 73.4,
-    "mapY": 23,
+    "mapX": 54.1,
+    "mapY": 22.2,
     "description": "The Kassod is a tree with small, yellow, clustered flowers that grows at an incredible rate. Its bark and stem are used primarily to treat skin conditions, expel intestinal parasites, and reduce blood sugar levels. In foods, it can be used in curries, while in timber and woodworking, its wood is prized for its hardness and density. Additionally, it is eco-friendly, with primary uses in preventing soil erosion. Fun fact: although it can be used as food for certain animals, it is toxic to poultry and swine.",
     "cite": "https://en.wikipedia.org/wiki/Senna_siamea",
     "id": "35"
@@ -511,8 +511,8 @@
     "nickname": "PLACEHOLDER",
     "image": "image/catalogue/37.png",
     "map": "map.html#tree-37",
-    "mapX": 59.7,
-    "mapY": 25.3,
+    "mapX": 59.8,
+    "mapY": 25.2,
     "description": "Prized for its fruit, the Bilimbi is a tree that thrives in the tropical climate of Southeast Asia. It is used not only as a food by acting as a natural souring agent in soups and stews, but can also be eaten raw with an iconic Cambodian mixture of pounded chilis and salt. In traditional medicine, it is used to cure coughs or colds, lower blood pressure, regulate sugar levels, and even treat acne. Fun fact: It is cauliflorous, meaning that its fruit grows directly out of its trunk and branches.",
     "cite": "https://en.wikipedia.org/wiki/Averrhoa_bilimbi",
     "id": "37"

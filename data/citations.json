@@ -1,7 +1,6 @@
 [
     {
         "common": "Sugar Palm",
-        "khmer": "ដើមត្នោត",
         "map": "map.html#tree-1",
         "cite" : [
             {
@@ -21,7 +20,6 @@
     },
     {
         "common": "Java Plum",
-        "khmer": "ព្រេីង",
         "map": "map.html#tree-2",
         "cite" : [
             {
@@ -42,5 +40,723 @@
             }
         ],
         "id": "2"
+    },
+    {
+        "common": "Jamaican Cherry",
+        "map": "map.html#tree-3",
+        "cite" : [
+            {
+                "link": "https://specialtyproduce.com/produce/Jamaica_Cherries_17742.php",
+                "id": "1"
+            },
+            {
+                "link": "https://greenshootsfoundation.org/blog/plantplanetplate/",
+                "id": "2"
+            },
+            {
+                "link": "https://www.growables.org/information/TropicalFruit/JamaicaCherryJuliaMorton.html",
+                "id": "3"
+            },
+            {
+                "link": "http://psasir.upm.edu.my/id/eprint/60577/1/Muntingia%20calabura%20a%20review%20of%20its%20traditional%20uses%2C%20chemical%20properties%2C%20and%20pharmacological%20observations.pdf",
+                "id": "4"
+            }
+        ],
+        "id": "3"
+    },
+    {
+        "common": "Monkey Pod",
+        "map": "map.html#tree-4",
+        "cite" : [
+            {
+                "link": "https://library.e.abb.com/public/a4cf993eb26b4627a4ecbc7f82453526/Rain+Tree.pdf?x-sign=1rw9TY7muGLkIioXT%2BDPUNJtCOMCfHXmD9%2FiGbFTHJRHj%2F7iCPVK%2Bk9RRbl1igDl",
+                "id": "1"
+            },
+            {
+                "link": "https://home.howstuffworks.com/lawn-garden/professional-landscaping/monkey-pod-tree.html",
+                "id": "2"
+            },
+            {
+                "link": "https://woodwondersfurniture.com/discover-the-beauty-of-the-monkey-pod-tree/",
+                "id": "3"
+            },
+            {
+                "link": "https://tropicalforages.info/text/entities/samanea_saman.html",
+                "id": "4"
+            }
+        ],
+        "id": "4"
+    },
+    {
+        "common": "Jackfruit",
+        "map": "map.html#tree-5",
+        "cite" : [
+            {
+                "link": "https://www.growables.org/information/TropicalFruit/jackfruit.html",
+                "id": "1"
+            },
+            {
+                "link": "https://veliyathgarden.com/products/cambodian-honey-jack-live-plants",
+                "id": "2"
+            },
+            {
+                "link": "https://kroya.restaurant/glossary/jackfruit",
+                "id": "3"
+            },
+            {
+                "link": "https://foodrevolution.org/blog/what-is-jackfruit/",
+                "id": "4"
+            }
+        ],
+        "id": "5"
+    },
+    {
+        "common": "Blackboard Tree",
+        "map": "map.html#tree-6",
+        "cite" : [
+            {
+                "link": "https://oriearth.org/tree-species-details?id=NA==",
+                "id": "1"
+            },
+            {
+                "link": "https://lakpura.ee/pages/alstonia-scholaris",
+                "id": "2"
+            },
+            {
+                "link": "https://www.greening.gov.hk/en/community-outreach/qrcode-tree-labels/index_id_54.html",
+                "id": "3"
+            }
+        ],
+        "id": "6"
+    },
+    {
+        "common": "Common Boxwood",
+        "map": "map.html#tree-7",
+        "cite" : [
+            {
+                "link": "https://www.embassyofcambodiadc.org/culture--religion.html",
+                "id": "1"
+            },
+            {
+                "link": "https://www.anyonewood.com/boxwood-european/",
+                "id": "2"
+            },
+            {
+                "link": "https://www.researchgate.net/publication/391391888_Boxwood_Buxus_spp_Cultivation_and_Breeding",
+                "id": "3"
+            }
+        ],
+        "id": "7"
+    },
+    {
+        "common": "Brown Salwood",
+        "map": "map.html#tree-8",
+        "cite" : [
+            {
+                "link": "https://gardeningwithangus.com.au/acacia-aulacocarpa-brown-salwood/",
+                "id": "1"
+            },
+            {
+                "link": "https://www.fao.org/4/ac775e/ac775e03.html",
+                "id": "2"
+            },
+            {
+                "link": "https://www.wood-database.com/brown-salwood/",
+                "id": "3"
+            }
+        ],
+        "id": "8"
+    },
+    {
+        "common": "Frangipani",
+        "map": "map.html#tree-9",
+        "cite" : [
+            {
+                "link": "https://rayon-de-serre.com/blogen/frangipani-varieties-stories-and-growing-tipsorigins/",
+                "id": "1"
+            },
+            {
+                "link": "https://belantara.world/blogs/journal/frangipani-the-iconic-tropical-plant?srsltid=AfmBOoqhVjplPxuC7fS-6sv9KUVSVzcODuFD6II4eTDXBedOsCmvAxBl",
+                "id": "2"
+            },
+            {
+                "link": "https://www.asianinstituteofresearch.org/JHMSarchives/content-and-antimicrobial-potential-of-cambodia-flower-(plumeria-sp.)-extract",
+                "id": "3"
+            },
+            {
+                "link": "https://www.ipni.org/n/30001863-2",
+                "id": "4"
+            }
+        ],
+        "id": "9"
+    },
+    {
+        "common": "Rumduol",
+        "map": "map.html#tree-10",
+        "cite" : [
+            {
+                "link": "https://www.localguidesconnect.com/t/rumduol-national-flower-of-cambodia/349061",
+                "id": "1"
+            },
+            {
+                "link": "https://intocambodia.org/content/romduol-flower-metralla-mesnyi-national-flower-cambodia",
+                "id": "2"
+            },
+            {
+                "link": "https://www.stuartxchange.org/Rumdul",
+                "id": "3"
+            },
+            {
+                "link": "https://en.wikipedia.org/wiki/Sphaerocoryne_lefevrei",
+                "id": "4"
+            }
+        ],
+        "id": "10"
+    },
+    {
+        "common": "Dwarf Coconut",
+        "map": "map.html#tree-11",
+        "cite" : [
+            {
+                "link": "https://gocambodia.net/sub/BusinessInvestmentOp/Coconut-Cultivation-in-Cambodia/8/30",
+                "id": "1"
+            },
+            {
+                "link": "https://hariharalaya.com/the-amazing-benefits-of-coconuts-the-superhuman-fruit/",
+                "id": "2"
+            },
+            {
+                "link": "https://www.kew.org/plants/coconut-palm",
+                "id": "3"
+            },
+            {
+                "link": "https://cambodiafaunaandflora5.wordpress.com/2025/08/08/%E1%9E%8A%E1%9E%BC%E1%9E%84%E1%9E%8F%E1%9E%BF/",
+                "id": "4"
+            }
+        ],
+        "id": "11"
+    },
+    {
+        "common": "Areca Palm",
+        "map": "map.html#tree-12",
+        "cite" : [
+            {
+                "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3307941/",
+                "id": "1"
+            },
+            {
+                "link": "https://www.ijidonline.com/article/S1201-9712(12)00018-5/pdf",
+                "id": "2"
+            },
+            {
+                "link": "https://prosea.prota4u.org/view.aspx?id=90",
+                "id": "3"
+            }
+        ],
+        "id": "12"
+    },
+    {
+        "common": "Indian Almond",
+        "map": "map.html#tree-13",
+        "cite" : [
+            {
+                "link": "https://stfc.org.au/articles/terminalia-catappa-2/",
+                "id": "1"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=V70-cZXjCZ4",
+                "id": "2"
+            }
+        ],
+        "id": "13"
+    },
+    {
+        "common": "Tamarind",
+        "map": "map.html#tree-14",
+        "cite" : [
+            {
+                "link": "https://prosea.prota4u.org/view.aspx?id=1422",
+                "id": "1"
+            },
+            {
+                "link": "https://pfaf.org/user/Plant.aspx?LatinName=Terminalia_catappa",
+                "id": "2"
+            },
+            {
+                "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11750476/",
+                "id": "3"
+            },
+            {
+                "link": "https://antkh.com/dict/en/dictionaries/tamarind.aspx",
+                "id": "4"
+            }
+        ],
+        "id": "14"
+    },
+    {
+        "common": "Noni",
+        "map": "map.html#tree-15",
+        "cite" : [
+            {
+                "link": "https://dinewiththelocals.com/how-to-use-the-noni-tree-and-fruit/",
+                "id": "1"
+            },
+            {
+                "link": "https://dinewiththelocals.com/how-to-use-the-noni-tree-and-fruit/",
+                "id": "2"
+            },
+            {
+                "link": "https://agritrop.cirad.fr/526592/1/document_526592.pdf",
+                "id": "3"
+            }
+        ],
+        "id": "15"
+    },
+    {
+        "common": "Apple Mango",
+        "map": "map.html#tree-16",
+        "cite" : [
+            {
+                "link": "https://cambodiafaunaandflora5.wordpress.com/2025/08/19/%E1%9E%9F%E1%9F%92%E1%9E%9C%E1%9E%B6%E1%9E%99%E1%9E%94%E1%9F%89%E1%9F%84%E1%9E%98-apple-mango/",
+                "id": "1"
+            },
+            {
+                "link": "https://laplantation.com/en/the-mango-a-real-symbol-of-cambodia/",
+                "id": "2"
+            },
+            {
+                "link": "https://specialtyproduce.com/produce/Apple_Mangoes_23779.php",
+                "id": "3"
+            }
+        ],
+        "id": "16"
+    },
+    {
+        "common": "Golden Shower Tree",
+        "map": "map.html#tree-17",
+        "cite" : [
+            {
+                "link": "https://www.researchgate.net/publication/396792218_The_Golden_Shower_Cassia_fistula_ornamental_ethnomedicinal_pharmacological_and_ecological_significance",
+                "id": "1"
+            },
+            {
+                "link": "https://pharmeasy.in/blog/ayurveda-uses-benefits-side-effects-precautions-of-amaltas/",
+                "id": "2"
+            },
+            {
+                "link": "https://www.flickr.com/photos/47415530@N02/4400142008",
+                "id": "3"
+            }
+        ],
+        "id": "17"
+    },
+    {
+        "common": "Ylang Ylang",
+        "map": "map.html#tree-18",
+        "cite" : [
+            {
+                "link": "https://bodia.com.kh/products/body-cream-white-turmeric-ylang-ylang",
+                "id": "1"
+            },
+            {
+                "link": "https://kambionature.com/shop/aromatherapy/aroma-oils/ylang-ylang-aroma-oil-10ml/?v=fa46ec0b4924",
+                "id": "2"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=u6osne8RgFk",
+                "id": "3"
+            }
+        ],
+        "id": "18"
+    },
+    {
+        "common": "Crepe Myrtle",
+        "map": "map.html#tree-19",
+        "cite" : [
+            {
+                "link": "https://www.nparks.gov.sg/florafaunaweb/flora/2/9/2991",
+                "id": "1"
+            },
+            {
+                "link": "https://plants.ces.ncsu.edu/plants/lagerstroemia-indica/",
+                "id": "2"
+            },
+            {
+                "link": "https://en.wikipedia.org/wiki/Lagerstroemia_indica",
+                "id": "3"
+            }
+        ],
+        "id": "19"
+    },
+    {
+        "common": "Crepe Myrtle",
+        "map": "map.html#tree-20",
+        "cite" : [
+            {
+                "link": "https://www.worldfloraonline.org/taxon/wfo-0001221526;jsessionid=248F15FD6F2979C3770A4D141CE0284E",
+                "id": "1"
+            },
+            {
+                "link": "https://exotic-seeds.com/en/home/rare-rusty-sapindus-seeds-lepisanthes-rubiginosa.html",
+                "id": "2"
+            },
+            {
+                "link": "https://thmeythmey.com/detail/157171",
+                "id": "3"
+            }
+        ],
+        "id": "20"
+    },
+    {
+        "common": "Star Apple",
+        "map": "map.html#tree-21",
+        "cite" : [
+            {
+                "link": "https://foodprint.org/real-food/star-apple/",
+                "id": "1"
+            },
+            {
+                "link": "https://pfaf.org/user/Plant.aspx?LatinName=Chrysophyllum+cainito",
+                "id": "2"
+            }
+        ],
+        "id": "21"
+    },
+    {
+        "common": "Pong Pong",
+        "map": "map.html#tree-22",
+        "cite" : [
+            {
+                "link": "https://www.sciencedirect.com/science/article/abs/pii/S1752928X18302762",
+                "id": "1"
+            },
+            {
+                "link": "https://www.nationalgeographic.com/environment/article/white-lotus-poison-fruit-cerbera-odollam",
+                "id": "2"
+            }
+        ],
+        "id": "22"
+    },
+    {
+        "common": "Hairy-Leafed Apitong",
+        "map": "map.html#tree-23",
+        "cite" : [
+            {
+                "link": "https://makiling.center/apitong-is-mbgs-plant-of-the-month-for-april-2023/",
+                "id": "1"
+            },
+            {
+                "link": "https://pfaf.org/user/Plant.aspx?LatinName=Dipterocarpus+alatus",
+                "id": "2"
+            },
+            {
+                "link": "https://cambodiafaunaandflora5.wordpress.com/2025/08/11/%E1%9E%8A%E1%9E%BE%E1%9E%98%E1%9E%88%E1%9E%BE%E1%9E%91%E1%9E%B6%E1%9E%9B-dipterocarpus-alatus/",
+                "id": "3"
+            }
+        ],
+        "id": "23"
+    },
+    {
+        "common": "Tree Spinach",
+        "map": "map.html#tree-24",
+        "cite" : [
+            {
+                "link": "https://www.echocommunity.org/resources/099a6c07-6dd8-400d-98ee-27ea928b4a15",
+                "id": "1"
+            },
+            {
+                "link": "https://www.spadefootnursery.com/fruit-trees-shrubs-vines/tree-spinach-cnidoscolus-aconitifolius",
+                "id": "2"
+            }
+        ],
+        "id": "24"
+    },
+    {
+        "common": "Cannonball Tree",
+        "map": "map.html#tree-25",
+        "cite" : [
+            {
+                "link": "https://thesurvivalgardener.com/cannonball-tree-fruit/",
+                "id": "1"
+            },
+            {
+                "link": "https://en.wikipedia.org/wiki/Couroupita_guianensis",
+                "id": "2"
+            }
+        ],
+        "id": "25"
+    },
+    {
+        "common": "Bamboo",
+        "map": "map.html#tree-26",
+        "cite" : [
+            {
+                "link": "https://giz-cambodia.com/sourcing-rattan-bamboo-handicraft/",
+                "id": "1"
+            },
+            {
+                "link": "https://www.wwf.org.kh/?302350/A%2DYears%2DImprovement%2Din%2Dthe%2DBamboo%2DCommunity",
+                "id": "2"
+            },
+            {
+                "link": "https://www.fao.org/4/ab598e/ab598e09.html",
+                "id": "3"
+            },
+            {
+                "link": "https://www.experiencetravelgroup.com/destinations/cambodia/experiences/battambang-bamboo-train",
+                "id": "4"
+            }
+        ],
+        "id": "26"
+    },
+    {
+        "common": "Teak",
+        "map": "map.html#tree-27",
+        "cite" : [
+            {
+                "link": "https://itto-bmel-project.com/cambodia/",
+                "id": "1"
+            },
+            {
+                "link": "https://coronadoconciergepanama.com/teak-wood-valuable-heart/",
+                "id": "2"
+            },
+            {
+                "link": "https://mlr.com.ni/the-varied-uses-of-teak-the-queen-of-wood/?lang=en",
+                "id": "3"
+            }
+        ],
+        "id": "27"
+    },
+    {
+        "common": "Shingle Tree",
+        "map": "map.html#tree-28",
+        "cite" : [
+            {
+                "link": "https://pfaf.org/user/Plant.aspx?LatinName=Acrocarpus+fraxinifolius",
+                "id": "1"
+            },
+            {
+                "link": "https://www.cambodiaruralstudentstrust.org/projectt",
+                "id": "2"
+            },
+            {
+                "link": "https://indiabiodiversity.org/species/show/6838",
+                "id": "3"
+            }
+        ],
+        "id": "28"
+    },
+    {
+        "common": "Billabong Tree",
+        "map": "map.html#tree-29",
+        "cite" : [
+            {
+                "link": "https://observation.org/species/506634/",
+                "id": "1"
+            }
+        ],
+        "id": "29"
+    },
+    {
+        "common": "Eggfruit",
+        "map": "map.html#tree-30",
+        "cite" : [
+            {
+                "link": "https://www.oriundopr.com/blogs/ingredients/canistel-eggfriit",
+                "id": "1"
+            },
+            {
+                "link": "https://toptropicals.com/html/toptropicals/articles/fruit/Pouteria-campechiana-canistel.html",
+                "id": "2"
+            },
+            {
+                "link": "https://www.echocommunity.org/km/resources/f92607f6-90c5-4bd0-8973-8a4ca8698b0b",
+                "id": "3"
+            }
+        ],
+        "id": "30"
+    },
+    {
+        "common": "Royal Poinciana",
+        "map": "map.html#tree-31",
+        "cite" : [
+            {
+                "link": "https://landscape.hongkongairport.com/en/introducing-our-plants-collection/index-id-25.html",
+                "id": "1"
+            },
+            {
+                "link": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=e498",
+                "id": "2"
+            },
+            {
+                "link": "https://www.flickr.com/photos/47415530@N02/4418660515/in/photostream/",
+                "id": "3"
+            }
+        ],
+        "id": "31"
+    },
+    {
+        "common": "Fishtail Palm",
+        "map": "map.html#tree-32",
+        "cite" : [
+            {
+                "link": "https://animals.sandiegozoo.org/plants/fishtail-palm",
+                "id": "1"
+            },
+            {
+                "link": "https://www.saharanpurnursery.in/products/fishtail-palm-caryota-urens?srsltid=AfmBOoqE_3kO6JlWMYtnB7aQdmzpKv1KUG0yDksU7EouSEEZj9aCRNg7",
+                "id": "2"
+            }
+        ],
+        "id": "32"
+    },
+    {
+        "common": "Madagascar Almond",
+        "map": "map.html#tree-33",
+        "cite" : [
+            {
+                "link": "https://auboisvert.com/en/plantes/madagascar-almond-tree/",
+                "id": "1"
+            },
+            {
+                "link": "https://www.stuartxchange.org/AfricanTalisay",
+                "id": "2"
+            },
+            {
+                "link": "https://www.knowyourweeds.com/km/weeds/Terminalia_mantaly/common-names",
+                "id": "3"
+            },
+            {
+                "link": "https://apps.worldagroforestry.org/treedb2/speciesprofile.php?Spid=1623",
+                "id": "4"
+            }
+        ],
+        "id": "33"
+    },
+    {
+        "common": "Indian Cork",
+        "map": "map.html#tree-34",
+        "cite" : [
+            {
+                "link": "https://www.pha-tad-ke.com/plant/millingtonia-hortensis/",
+                "id": "1"
+            }
+        ],
+        "id": "34"
+    },
+    {
+        "common": "Kassod",
+        "map": "map.html#tree-35",
+        "cite" : [
+            {
+                "link": "https://www.echocommunity.org/resources/8637094e-7b2a-40a2-8583-ae097079831a",
+                "id": "1"
+            },
+            {
+                "link": "https://www.researchgate.net/publication/358752586_Phytochemical_Screening_Analgesic_And_Anti-Inflammatory_Activities_Of_Methanol_Stem_Bark_Extract_Of_Senna_Siamea_Lam_Kassod_Tree",
+                "id": "2"
+            },
+            {
+                "link": "https://pfaf.org/user/Plant.aspx?LatinName=Senna_siamea",
+                "id": "3"
+            },
+            {
+                "link": "https://apps.worldagroforestry.org/treedb2/speciesprofile.php?Spid=461",
+                "id": "4"
+            }
+        ],
+        "id": "35"
+    },
+    {
+        "common": "Sacred Fig",
+        "map": "map.html#tree-36",
+        "cite" : [
+            {
+                "link": "https://www.wisdomlib.org/concept/sacred-fig",
+                "id": "1"
+            }
+        ],
+        "id": "36"
+    },
+    {
+        "common": "Bilimbi",
+        "map": "map.html#tree-37",
+        "cite" : [
+            {
+                "link": "https://wondersofcambodia.com/averrhoa-bilimbi-bilimbi-a-sharp-little-fruit-with-big-culinary-potential/",
+                "id": "1"
+            },
+            {
+                "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5314823/",
+                "id": "2"
+            },
+            {
+                "link": "https://specialtyproduce.com/produce/Bilimbi_Fruit_14716.php",
+                "id": "3"
+            }
+        ],
+        "id": "37"
+    },
+    {
+        "common": "Salamander Tree",
+        "map": "map.html#tree-38",
+        "cite" : [
+            {
+                "link": "https://www.kentarchaeology.org.uk/records/rochester-bestiary-salamander",
+                "id": "1"
+            },
+            {
+                "link": "https://www.growables.org/information/TropicalFruit/BignayMorton.html",
+                "id": "2"
+            },
+            {
+                "link": "https://apps.worldagroforestry.org/treedb2/speciesprofile.php?Spid=1766",
+                "id": "3"
+            }
+        ],
+        "id": "38"
+    },
+    {
+        "common": "Rose Gum",
+        "map": "map.html#tree-39",
+        "cite" : [
+            {
+                "link": "https://pfaf.org/user/Plant.aspx?LatinName=Eucalyptus+grandis",
+                "id": "1"
+            },
+            {
+                "link": "https://www.rosegums.com.au/The-Retreat/Walking-Trails/giant-rose-gums-walk/",
+                "id": "2"
+            },
+            {
+                "link": "https://www.fao.org/4/ac775e/ac775e03.html",
+                "id": "3"
+            },
+            {
+                "link": "https://www.echocommunity.org/km/resources/27d7ba50-b4be-485f-8219-7802d7298b53",
+                "id": "4"
+            }
+        ],
+        "id": "39"
+    },
+    {
+        "common": "Kapok",
+        "map": "map.html#tree-40",
+        "cite" : [
+            {
+                "link": "https://www.lrrd.org/lrrd18/6/kouc18087.html",
+                "id": "1"
+            },
+            {
+                "link": "https://senteursdangkor.com/the-sacred-aroma-of-kapok-tree-incense/",
+                "id": "2"
+            },
+            {
+                "link": "https://prosea.prota4u.org/view.aspx?id=6529",
+                "id": "3"
+            }
+        ],
+        "id": "40"
     }
 ]
